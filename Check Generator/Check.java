@@ -76,7 +76,7 @@ class Check
 
     public static void main(String args[])throws IOException
     {
-        PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter("C:/Users/welcome/Desktop/Cheque.DAT",true)));
+        PrintWriter pw=new PrintWriter(new BufferedWriter(new FileWriter("Cheque.DAT",true)));
         Scanner sc=new Scanner(System.in);
         Check o1=new Check();
         System.out.println("\f             Welcome to PRABHAT Bank");
