@@ -94,6 +94,7 @@ class Check
             if(mo>0)
             {
                 System.out.print("\f");
+                //display in the terminal window
                 System.out.println("**********************************************************************************************************************");
                 System.out.println("*           ------------------                        -----------------------------                                  *");
                 System.out.println("            A/C    Payee Only                                 Non Negotiable                                          ");
@@ -121,6 +122,8 @@ class Check
                 System.out.println("*                                                                                                                    *");
                 System.out.println("*  IFS CODE "+mr(900000000,100000000)+"                                                                                                *");
                 System.out.println("**********************************************************************************************************************");
+                
+                //saving the check in a file so as to get it printed
                 pw.println("**********************************************************************************************************************");
                 pw.println("*           ------------------                        -----------------------------                                  *");
                 pw.println("            A/C    Payee Only                                 Non Negotiable                                          ");
